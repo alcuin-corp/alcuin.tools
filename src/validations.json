@@ -1,0 +1,14 @@
+{
+    "ObjectType": "EntityType",
+    "Rules": [
+        {
+            "Type": "PropertyConstraint",
+            "Properties": ["Name", "Plural", "Code"],
+            "Constraint": "Required"
+        }, {
+            "Type": "PropertyConstraint",
+            "Properties": ["Code"],
+            "Constraint": "ReadOnly"
+        }
+    ]
+}
